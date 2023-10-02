@@ -1,0 +1,41 @@
+.box-card .box {
+    width: 400px;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px 5px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.box-card .box.success {
+    background-color: #baffbf;
+}
+
+.box-card .box.alert {
+    background-color: #ffb4b4;
+}
+
+.box-card .box.warning {
+    background-color: #FFDEB4;
+}
+
+.box-card .box p {
+    margin: 10px;
+}
+
+.box-card .box p.title {
+    font-size: 20px;
+}
+
+.box-card .box p.description {
+    font-size: 14px;
+}
+
+.box-card button.trigger {
+    border: 0px;
+    border-radius: 5px;
+    background-color: #0F3460;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    cursor: pointer;
+}
