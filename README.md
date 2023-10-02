@@ -8,3 +8,32 @@ https://unwiredlearning.notion.site/unwiredlearning/React-Resources-4fdd421a6037
 
 ## Course Github
 https://github.com/ShubhamSarda/react-ul
+
+
+## Notes
+* Create app
+```
+PS C:\Users\theofilo\Desktop\Coding\React\Udemy_Course\general> npx create-react-app my-app
+
+Success! Created my-app at C:\Users\theofilo\Desktop\Coding\React\Udemy_Course\general\my-app
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd my-app
+  npm start
+
+Happy hacking!```
