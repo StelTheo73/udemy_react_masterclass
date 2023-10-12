@@ -11,7 +11,7 @@ https://github.com/ShubhamSarda/react-ul
 
 
 ## Notes
-* Create app
+* ### Create app
 ```
 PS C:\Users\theofilo\Desktop\Coding\React\Udemy_Course\general> npx create-react-app my-app
 
@@ -36,4 +36,24 @@ We suggest that you begin by typing:
   cd my-app
   npm start
 
-Happy hacking!```
+Happy hacking!
+```
+
+## Json server
+
+### https://www.npmjs.com/package/json-server
+
+* ### Start server
+```
+json-server --watch <path to json data> --port <port different than the app>
+```
+
+* Sort
+```
+http://localhost:8000/products?_sort=price&_order=desc
+```
+
+* Filter
+```
+http://localhost:8000/products?name_like=react
+```
