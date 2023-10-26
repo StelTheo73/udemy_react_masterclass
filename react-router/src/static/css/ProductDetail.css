@@ -1,0 +1,25 @@
+.productDetail {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.productDetail .visual {
+    width: 50%;
+}
+
+.productDetail .visual img {
+    width: 100%;
+}
+
+.productDetail .info {
+    max-width: 50%;
+}
+
+.productDetail .info .name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.productDetail .info .description {
+    font-size: 18px;
+}
